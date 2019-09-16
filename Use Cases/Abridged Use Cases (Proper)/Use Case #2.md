@@ -1,6 +1,6 @@
 Goal: As an employee I need to get the top N populations of countries from a given area for use in my work
 Scope: Country
-Level: Primary Task
+Level: Primary task
 Preconditions: Country population
 Success Condition: Report is received
 Fail Condition: No report created
