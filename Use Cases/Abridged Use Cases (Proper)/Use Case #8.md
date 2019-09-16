@@ -1,7 +1,7 @@
-Goal: As an employee I need to get the population number that speaks a given language and include the percentage for use in my work
+Goal: As an employee I need to get the population from a given area of the world for use in my work
 Scope: World
-Level: Primary task
-Preconditions: World population + language
+Level: Summary
+Preconditions: Area
 Success Condition: Report is received
 Fail Condition: No report created
 Primary Actor: Employee using the software to create report

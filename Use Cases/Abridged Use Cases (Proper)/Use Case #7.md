@@ -1,7 +1,7 @@
-Goal: As an employee I need to get the population number that speaks a given language and include the percentage for use in my work
-Scope: World
-Level: Primary task
-Preconditions: World population + language
+Goal: As an employee I need to get the population of people living in and out of cities plus the total amount from a given area for use in my work
+Scope: City
+Level: Subfunction
+Preconditions: City population + Out of city population
 Success Condition: Report is received
 Fail Condition: No report created
 Primary Actor: Employee using the software to create report
