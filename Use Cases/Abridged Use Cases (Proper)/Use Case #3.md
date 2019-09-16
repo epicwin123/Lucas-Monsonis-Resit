@@ -1,7 +1,7 @@
-Goal: As an employee I need to get the top N populations of countries from a given area for use in my work
-Scope: Country
-Level: Primary Task
-Preconditions: Country population
+Goal: As an employee I need to get a list of all the cities from a given area from largest to smallest for use in my work
+Scope: City
+Level: Subfunction
+Preconditions: City population
 Success Condition: Report is received
 Fail Condition: No report created
 Primary Actor: Employee using the software to create report
