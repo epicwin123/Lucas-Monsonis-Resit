@@ -1,11 +1,11 @@
-Goal: As an employee I need to get the population of people living in and out of cities plus the total amount in a given area of the world for use in my work
+Goal: As an employee I need to get the top N populations of capital cities from a given area for use in my work
 Scope: City
-Level: Subfunction
-Preconditions: Population of people living in and out of cities
-Success Condition: Report containing all get the population of people living in and out of cities plus the total amount in a given area of the world is obtained
-Fail Condition: No report is created
+Level: Primary task
+Preconditions: City population
+Success Condition: Report is received
+Fail Condition: No report created
 Primary Actor: Employee using the software to create report
-Trigger: Request for report
+Trigger: Request for specific report
 Main Success Scenario:
 1. Employee requests specific report
 2. Employee receives report
