@@ -2,15 +2,18 @@ sudo: false
 
 language: java
 
-script: "mvn cobertura:cobertura"
-  - echo "Deploying to GitHub Releases"
-  - mvn package -DskipTests=true -Dmaven.javadoc.skip=true
-
 services:
   - docker
 
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+before_script:
+  - mvn clean
+
+script: "mvn cobertura:cobertura"
+  - echo "Deploying to GitHub Releases"
+  - mvn package -DskipTests=true -Dmaven.javadoc.skip=true
 
 jdk: oraclejdk11
 
