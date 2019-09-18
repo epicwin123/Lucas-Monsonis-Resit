@@ -4,6 +4,7 @@ actor MPL as "Employee"
 Rectangle Database as DB
 
 Rectangle "Population Info System" as System {
+
     usecase UCa as "Print population"
     usecase UCb as "Print cities"
     usecase UCc as "Print countries"
