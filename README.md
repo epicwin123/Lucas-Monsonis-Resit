@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-hello
+Lucas Monsonis
 
 # Software Engineering Methods
 
