@@ -24,8 +24,8 @@ jobs:
         - mvn package -DskipTests=true -Dmaven.javadoc.skip=true
       before_deploy:
         # Set up git user name and tag this commit
-        - git config --local user.name "Kevin Chalmers"
-        - git config --local user.email "k.chalmers@napier.ac.uk"
+        - git config --local user.name "epicwin123"
+        - git config --local user.email "facdis123@gmail.com"
         # Create temporary tag from date and Git log.
         - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y-%m-%d')-$(git log --format=%h -1)}
         # Set tag
@@ -36,6 +36,12 @@ jobs:
         # Copy built JAR file.  JAR built in $TRAVIS_BUILD_DIR/
         file: $TRAVIS_BUILD_DIR/target/seMethods.jar
         skip_cleanup: true
+
+stages:
+  - unit tests
+  - integration tests
+  - name: GitHub Release
+    if: branch = master
 
 after_success:
   - docker network create --driver bridge se-methods
