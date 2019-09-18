@@ -1,0 +1,49 @@
+@startuml
+actor MPL as "Employee"
+
+Rectangle Database as DB
+
+Rectangle "Population Info System" as System {
+
+    usecase UCa as "Print countries"
+    usecase UCb as "Print population"
+    usecase UCc as "Print cities"
+
+    usecase UC1 as "Sort countries in given area by population"
+    Org - UC1
+    UC1 ..> UCb : include
+    UC1 - DB
+    usecase UC2 as "Get top N countries in given area"
+    Org - UC2
+    UC2 ..> UCb : include
+    UC2 - DB
+    usecase UC3 as "Get all cities in given area ordered by population"
+    Org - UC3
+    UC3 ..> UCc : include
+    UC3 - DB
+    usecase UC4 as "Get top N cities in given area"
+    Org - UC4
+    UC4 ..> UCc : include
+    UC4 - DB
+    usecase UC5 as "Get capital cities in given area ordered by population"
+    Org - UC5
+    UC5 ..> UCc : include
+    UC5 - DB
+    usecase UC6 as "Get top N capital cities in given area"
+    Org - UC6
+    UC6 ..> UCc : include
+    UC6 - DB
+    usecase UC7 as "Get population living in and out of cities"
+    Org - UC7
+    UC7 ..> UCa : include
+    UC7 - DB
+    usecase UC8 as "Get population of a given area"
+    Org - UC8
+    UC8 ..> UCa : include
+    UC8 - DB
+    usecase UC9 as "Get population and percentage of total population speaking given language ordered by population"
+    Org - UC9
+    UC9 ..> UCc : include
+    UC9 - DB
+}
+@enduml

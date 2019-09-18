@@ -1,0 +1,32 @@
+As an employee I need to sort largest to smallest populations of all countries in a region for use in my work
+As an employee I need to sort largest to smallest populations of all countries in a continent for use in my work
+As an employee I need to sort largest to smallest populations of all countries in the world for use in my work
+As an employee I need to get the top N populations of countries of the world for use in my work
+As an employee I need to get the top N populations of countries of a continent for use in my work
+As an employee I need to get the top N populations of countries of a region for use in my work
+As an employee I need to get a list of all the cities of the world from largest to smallest for use in my work
+As an employee I need to get a list of all the cities of a continent from largest to smallest population for use in my work
+As an employee I need to get a list of all the cities of a region from largest to smallest population for use in my work
+As an employee I need to get a list of all the cities of a country from largest to smallest population for use in my work
+As an employee I need to get a list of all the cities of a district from largest to smallest population for use in my work
+As an employee I need to get the top N populations of cities of the world for use in my work
+As an employee I need to get the top N populations of cities of the continent for use in my work
+As an employee I need to get the top N populations of cities of the region for use in my work
+As an employee I need to get the top N populations of cities of the country for use in my work
+As an employee I need to get the top N populations of cities of the district for use in my work
+As an employee I need to get a list of all the capital cities of the world from largest to smallest population for use in my work
+As an employee I need to get a list of all the capital cities of a continent from largest to smallest population for use in my work
+As an employee I need to get a list of all the capital cities of a region from largest to smallest population for use in my work
+As an employee I need to get the top N populations of capital cities of the world for use in my work
+As an employee I need to get the top N populations of capital cities of a continent for use in my work
+As an employee I need to get the top N populations of capital cities of a region for use in my work
+As an employee I need to get the population of people, people living in cities, and people not living in cities in each continent for use in my work
+As an employee I need to get the population of people, people living in cities, and people not living in cities in each region for use in my work
+As an employee I need to get the population of people, people living in cities, and people not living in cities in each country for use in my work
+As an employee I need to get the population of the world for use in my work
+As an employee I need to get the population of a continent for use in my work
+As an employee I need to get the population of a region for use in my work
+As an employee I need to get the population of a country for use in my work
+As an employee I need to get the population of a district for use in my work
+As an employee I need to get the population of a city for use in my work
+As an employee I need to get the population that speaks Chinese, English, Hindi, Spanish and Arabic from largest to smallest numbers along with its percentage of the world population for use in my work
