@@ -13,4 +13,4 @@ after_success:
   - docker run -d --name mongo-dbserver --network se-methods mongo
   - docker build -t se_methods .
   - docker run --network se-methods se_methods
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -t uuid-repo-token
