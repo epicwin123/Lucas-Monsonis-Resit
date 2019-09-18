@@ -6,6 +6,7 @@ Lucas Monsonis
 - Develop [![Build Status](https://travis-ci.org/epicwin123/Lucas-Monsonis-Resit.svg?branch=develop)](https://travis-ci.org/epicwin123/Lucas-Monsonis-Resit)
 - License [![LICENSE](https://img.shields.io/github/license/epicwin123/Lucas-Monsonis-Resit.svg?style=flat-square)](https://github.com/epicwin123/Lucas-Monsonis-Resit/blob/master/LICENSE)
 - Release [![Releases](https://img.shields.io/github/release/epicwin123/Lucas-Monsonis-Resit/all.svg?style=flat-square)](https://github.com/epicwin123/Lucas-Monsonis-Resit/releases)
+- Code Coverage [![codecov](https://codecov.io/gh/epicwin123/Lucas-Monsonis-Resit/branch/master/graph/badge.svg)](https://codecov.io/gh/epicwin123/Lucas-Monsonis-Resit)
 
 
 0 requirements of 32 have been implemented, which is 00.00%.
